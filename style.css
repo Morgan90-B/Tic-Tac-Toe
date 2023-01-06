@@ -1,0 +1,59 @@
+body{
+    font-family:cursive;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem 60px 1fr 20px;
+}
+
+#boardgame{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 20rem;
+    height: 20rem;
+    justify-self: center;
+}
+
+.element{
+    border: 1px solid rgb(31, 20, 0);
+    box-shadow: 2px 2px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: blue;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: aquamarine;
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#state{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.btncntn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 30px;
+    width: 70px;
+    padding: 10px;
+    background-color: grey;
+}
